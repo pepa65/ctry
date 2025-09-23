@@ -1,16 +1,17 @@
 [package]
-name = "retry-cmd"
-version = "0.4.1"
-authors = ["Timo Furrer <tuxtimo@gmail.com>"]
-description = "Retry commands on the command line without all the loops you always used!"
+name = "ctry"
+version = "0.5.1"
+edition = "2024"
+authors = ["Timo Furrer <tuxtimo@gmail.com>", "github.com/pepa65"]
+description = "Retry CLI commands"
+repository = "https://github.com/pepa65/ctry"
+documentation = "https://docs.rs/ctry/"
 readme = "README.md"
 license = "MIT"
-homepage = "https://github.com/timofurrer/retry"
-repository = "https://github.com/timofurrer/retry"
-edition = "2018"
+categories = ["command-line-utilities"]
 
 [[bin]]
-name = "retry"
+name = "ctry"
 path = "src/main.rs"
 
 [dependencies]

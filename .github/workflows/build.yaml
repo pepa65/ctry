@@ -2,7 +2,6 @@ name: build
 
 on:
   - push
-  - pull_request
 
 jobs:
   build:
@@ -10,16 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - uses: brndnmtthws/rust-action-rustup@v1
         with:
           toolchain: stable
       - uses: actions-rs/cargo@v1
         with:
           command: build
-          args: --release --bin retry
-
+          args: --release --bin ctry
       - uses: actions/upload-artifact@v3
         with:
           name: binary
-          path: target/release/retry
+          path: target/release/ctry

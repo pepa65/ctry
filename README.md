@@ -1,4 +1,4 @@
-# retry
+# ctry
 
 Retry commands on the command line without all the loops you always used!
 
