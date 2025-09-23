@@ -1,6 +1,6 @@
-# ctry
+# ctry 1.1.0
 
-Retry commands on the command line without all the loops you always used!
+Retry CLI commands
 
 ```bash
 # Stop retrying after 10 tries
@@ -17,7 +17,28 @@ retry --quiet -- curl -I https://unstable.site
 ```
 
 ## Installation
-
 ```
-cargo install retry-cmd
+cargo-binstall ctry
+```
+
+## Usage
+```
+ctry 1.0.1
+Retry CLI commands
+
+USAGE:
+    ctry [FLAGS] [OPTIONS] [--] <COMMAND>...
+
+FLAGS:
+    -h, --help       Prints help information
+    -q, --quiet      Suppress output of the command
+    -V, --version    Prints version information
+
+OPTIONS:
+    -e, --exitcode <EXIT_CODE>    On which exit code retries will stop [default: 0]
+    -i, --interval <INTERVAL>     Interval in seconds between the retries [default: 1]
+    -m, --max <MAX_RETRIES>       Maximum retries, use 0 for unlimited retries [default: 5]
+
+ARGS:
+    <COMMAND>...    Command to run
 ```

@@ -1,6 +1,6 @@
 [package]
 name = "ctry"
-version = "0.5.1"
+version = "1.1.0"
 edition = "2024"
 authors = ["Timo Furrer <tuxtimo@gmail.com>", "github.com/pepa65"]
 description = "Retry CLI commands"
@@ -13,6 +13,13 @@ categories = ["command-line-utilities"]
 [[bin]]
 name = "ctry"
 path = "src/main.rs"
+
+[package.metadata.binstall]
+pkg-url = "{repo}/releases/download/{version}/{name}"
+pkg-fmt = "bin"
+disabled-strategies = ["quick-install", "compile"]
+target-family = "Linux"
+target-arch = "X86_64"
 
 [dependencies]
 clap = "2"
