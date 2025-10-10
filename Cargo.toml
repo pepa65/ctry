@@ -1,6 +1,6 @@
 [package]
 name = "ctry"
-version = "1.1.0"
+version = "1.1.1"
 edition = "2024"
 authors = ["Timo Furrer <tuxtimo@gmail.com>", "github.com/pepa65"]
 description = "Retry CLI commands"
@@ -8,6 +8,7 @@ repository = "https://github.com/pepa65/ctry"
 documentation = "https://docs.rs/ctry/"
 readme = "README.md"
 license = "MIT"
+keywords = ["cli"]
 categories = ["command-line-utilities"]
 
 [[bin]]

@@ -1,4 +1,4 @@
-# ctry 1.1.0
+# ctry 1.1.1
 
 Retry CLI commands
 
