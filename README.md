@@ -1,4 +1,4 @@
-# ctry 1.2.0
+# ctry 1.2.1
 
 Retry CLI commands
 
@@ -23,7 +23,7 @@ cargo-binstall ctry
 
 ## Usage
 ```
-ctry 1.2.0
+ctry 1.2.1
 Retry CLI commands
 
 USAGE:

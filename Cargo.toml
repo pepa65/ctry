@@ -1,6 +1,6 @@
 [package]
 name = "ctry"
-version = "1.2.0"
+version = "1.2.1"
 edition = "2024"
 authors = ["Timo Furrer <tuxtimo@gmail.com>", "github.com/pepa65"]
 description = "Retry CLI commands"
