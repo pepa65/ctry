@@ -2,7 +2,7 @@
 name = "ctry"
 version = "1.2.1"
 edition = "2024"
-rust_version = "1.85.1"
+rust-version = "1.85.1"
 authors = ["Timo Furrer <tuxtimo@gmail.com>", "github.com/pepa65"]
 description = "Retry CLI commands"
 repository = "https://github.com/pepa65/ctry"
