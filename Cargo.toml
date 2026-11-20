@@ -1,6 +1,6 @@
 [package]
 name = "ctry"
-version = "1.2.2"
+version = "1.2.3"
 edition = "2024"
 rust-version = "1.85.1"
 authors = ["Timo Furrer <tuxtimo@gmail.com>", "github.com/pepa65"]
